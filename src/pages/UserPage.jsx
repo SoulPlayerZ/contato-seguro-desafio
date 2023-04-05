@@ -1,5 +1,6 @@
 import logo from "../assets/logo.png";
 import Header from "../components/Header";
+import UserList from "../components/UserList";
 
 function UserPage () {
   return (
@@ -18,6 +19,7 @@ function UserPage () {
           </select>
         </form>
         <hr/>
+        <UserList />
 
       </main>
     </>
