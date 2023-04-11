@@ -1,4 +1,5 @@
 import logo from "../assets/logo.png";
+import CompanyList from "../components/CompanyList";
 import Header from "../components/Header";
 
 
@@ -18,6 +19,7 @@ function CompanyPage () {
           </select>
         </form>
         <hr/>
+        <CompanyList />
 
       </main>
     </>

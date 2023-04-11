@@ -7,7 +7,6 @@ function UserList () {
       <h4>Telefone</h4>
       <h4>Nascimento</h4>
       <h4>Cidade</h4>
-      
     </section>
   )
 }
