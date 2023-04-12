@@ -1,12 +1,13 @@
 import { BiEdit } from "react-icons/bi";
 import { FaEraser } from "react-icons/fa";
+import "../css/lists.css";
 
 function UserList() {
   return (
-    <section>
+    <section className="table-container">
       <table>
         <thead>
-          <tr>
+          <tr className="t">
             <th>Nome</th>
             <th>Email</th>
             <th>Telefone</th>
@@ -29,8 +30,17 @@ function UserList() {
             </td>
           </tr>
           <tr>
-            <td>Carla</td>
-            <td>9.0</td>
+            <td>Pedro</td>
+            <td>pedrim@gmail.com</td>
+            <td>21 985868598</td>
+            <td>18/02/1999</td>
+            <td>São Paulo</td>
+            <td className="add">
+              <BiEdit />
+            </td>
+            <td className="add">
+              <FaEraser />
+            </td>
           </tr>
         </tbody>
       </table>
