@@ -22,7 +22,6 @@ function UserPage() {
             </select>
           </form>
         </section>
-        <hr />
         <UserList />
       </main>
     </>
