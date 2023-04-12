@@ -4,7 +4,6 @@ import UserPage from "./pages/UserPage";
 import CompanyPage from "./pages/CompanyPage";
 
 function App() {
-  
   return (
     <BrowserRouter>
       <Routes>
@@ -13,7 +12,7 @@ function App() {
         <Route path="/empresa" element={<CompanyPage />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
