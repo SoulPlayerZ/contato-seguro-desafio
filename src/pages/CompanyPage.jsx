@@ -1,7 +1,7 @@
 import logo from "../assets/logo.png";
 import CompanyList from "../components/CompanyList";
 import Header from "../components/Header";
-import "../css/companyPage.css";
+import "../css/pages.css";
 
 function CompanyPage() {
   return (
