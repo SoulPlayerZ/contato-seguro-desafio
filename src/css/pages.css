@@ -22,8 +22,8 @@ main {
 .add {
   align-self: center;
   margin: 10px;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   border: 1px;
   border-radius: 3px;
   color: #fffffc;
@@ -53,4 +53,12 @@ form {
 
 select {
   width: 30%;
+}
+
+.modal {
+  width: 50%;
+  height: 50%;
+  margin: 10% auto;
+  background-color: #afafaf;
+  background: rgba(#000, .4);
 }

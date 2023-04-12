@@ -13,6 +13,8 @@ function UserList() {
             <th>Telefone</th>
             <th>Nascimento</th>
             <th>Cidade</th>
+            <th>Editar</th>
+            <th>Excluir</th>
           </tr>
         </thead>
         <tbody>
