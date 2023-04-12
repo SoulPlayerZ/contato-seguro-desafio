@@ -7,7 +7,7 @@ function UserList() {
     <section className="table-container">
       <table>
         <thead>
-          <tr className="t">
+          <tr>
             <th>Nome</th>
             <th>Email</th>
             <th>Telefone</th>
@@ -22,11 +22,11 @@ function UserList() {
             <td>21 985868598</td>
             <td>18/02/1999</td>
             <td>São Paulo</td>
-            <td className="add">
-              <BiEdit />
+            <td>
+              <BiEdit className="list-btn"/>
             </td>
-            <td className="add">
-              <FaEraser />
+            <td>
+              <FaEraser className="list-btn"/>
             </td>
           </tr>
           <tr>
@@ -35,11 +35,11 @@ function UserList() {
             <td>21 985868598</td>
             <td>18/02/1999</td>
             <td>São Paulo</td>
-            <td className="add">
-              <BiEdit />
+            <td>
+              <BiEdit className="list-btn" />
             </td>
-            <td className="add">
-              <FaEraser />
+            <td>
+              <FaEraser className="list-btn" />
             </td>
           </tr>
         </tbody>
