@@ -21,7 +21,6 @@ function CompanyPage() {
             </select>
           </form>
         </section>
-        <hr />
         <CompanyList />
       </main>
     </>
