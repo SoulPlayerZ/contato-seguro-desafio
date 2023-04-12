@@ -20,11 +20,11 @@ function CompanyList() {
             <td>45.858.858/0001-55</td>
             <td>Rua das ruas brabas, n93</td>
             <td>Marcos, Maria, Vandeco</td>
-            <td className="add">
-              <BiEdit />
+            <td>
+              <BiEdit className="list-btn"/>
             </td>
-            <td className="add">
-              <FaEraser />
+            <td>
+              <FaEraser className="list-btn"/>
             </td>
           </tr>
           <tr>
@@ -32,11 +32,11 @@ function CompanyList() {
             <td>45.858.858/0001-55</td>
             <td>Rua das ruas brabas, n93</td>
             <td>Marcos, Maria, Vandeco</td>
-            <td className="add">
-              <BiEdit />
+            <td>
+              <BiEdit className="list-btn"/>
             </td>
-            <td className="add">
-              <FaEraser />
+            <td>
+              <FaEraser className="list-btn"/>
             </td>
           </tr>
         </tbody>
