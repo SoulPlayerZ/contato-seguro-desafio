@@ -13,3 +13,13 @@ td {
   padding: 10px; 
   border-top: 2px solid #fcfcfc;
 }
+
+.list-btn {
+  width: 20px;
+  padding: 10px;
+  background-color: black;
+  color: #fffffc;
+  border-radius: 3px;
+  margin-right: -1.5em;
+  font-size: 20px;
+}
