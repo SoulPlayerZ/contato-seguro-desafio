@@ -15,7 +15,7 @@ function CompanyModal() {
             ></button>
           </div>
           <div className="modal-body">
-            <form>
+            <form className="modal-company-form">
               <label>
                 Nome:
                 <input type="text" name="nome" maxLength="30" required />
