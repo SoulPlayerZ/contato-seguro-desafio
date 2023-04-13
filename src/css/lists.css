@@ -15,10 +15,20 @@ td {
 }
 
 
+/* .list-btn {
+  padding: 10px;
+  background-color: #1a1a1a;
+  color: #fffffc;
+  border-radius: 5px;
+  font-size: 20px;
+} */
+
 .list-btn {
   padding: 10px;
+  width: 40px;
+  height: 40px;
   color: #fffffc;
   background-color: #1a1a1a;
-  border-radius: 3px;
+  border-radius: 5px;
   font-size: 20px;
 }

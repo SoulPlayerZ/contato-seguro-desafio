@@ -20,15 +20,14 @@ main {
 }
 
 .add {
-  align-self: center;
   margin: 10px;
   width: 40px;
   height: 40px;
   border: 1px;
-  border-radius: 3px;
+  border-radius: 5px;
   color: #fffffc;
   background-color: #1a1a1a;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 form {
@@ -38,6 +37,7 @@ form {
 }
 
 .search, select {
+  height: 35px;
   padding: 5px;
   margin: 10px;
   font-size: 15px;
@@ -53,12 +53,4 @@ form {
 
 select {
   width: 30%;
-}
-
-.modal {
-  width: 50%;
-  height: 50%;
-  margin: 10% auto;
-  background-color: #afafaf;
-  background: rgba(#000, .4);
 }
