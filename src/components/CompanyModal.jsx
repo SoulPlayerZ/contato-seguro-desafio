@@ -18,17 +18,17 @@ function CompanyModal() {
             <form className="modal-company-form">
               <label>
                 Nome:
-                <input type="text" name="nome" maxLength="30" required />
+                <input type="text" name="nome" maxLength="30" className="input-text-modal" required />
               </label>
               <label>
                 CNPJ:
-                <input type="text" name="cnpj" maxLength="20" required />
+                <input type="text" name="cnpj" maxLength="20" className="input-text-modal" required />
               </label>
               <label>
                 Endereço:
-                <input type="text" name="endereco" maxLength="40" required />
+                <input type="text" name="endereco" maxLength="40" className="input-text-modal" required />
               </label>
-              <div className="modal-footer">
+              <div>
                 <button type="button" className="btn btn-secondary">
                   Limpar
                 </button>

@@ -1,4 +1,22 @@
+.modal {
+  margin: 5% auto;
+}
+
 .modal-company-form {
   display: flex;
   flex-direction: column;
+}
+
+label {
+  padding: 5px;
+}
+
+.input-text-modal {
+  margin: 10px auto;
+  width: 200%;
+  height: 35px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
 }
