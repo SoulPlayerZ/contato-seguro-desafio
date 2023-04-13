@@ -20,3 +20,19 @@ label {
   border-radius: 5px;
   border: 1px solid grey;
 }
+
+.btn {
+  margin: 5px;
+  border: 1px;
+  border-radius: 5px;
+  color: #fffffc;
+  background-color: #1a1a1a;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.btn:active {
+  background-color: rgb(65, 65, 65) !important;
+}
