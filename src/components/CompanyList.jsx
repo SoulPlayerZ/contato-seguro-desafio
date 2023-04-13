@@ -12,6 +12,8 @@ function CompanyList() {
             <th>CNPJ</th>
             <th>Endereço</th>
             <th>Usuários</th>
+            <th>Editar</th>
+            <th>Excluir</th>
           </tr>
         </thead>
         <tbody>
