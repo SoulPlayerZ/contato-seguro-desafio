@@ -1,4 +1,38 @@
+.modal {
+  margin: 5% auto;
+}
+
 .modal-company-form {
   display: flex;
   flex-direction: column;
+}
+
+label {
+  padding: 5px;
+}
+
+.input-text-modal {
+  margin: 10px auto;
+  width: 200%;
+  height: 35px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.btn {
+  margin: 5px;
+  border: 1px;
+  border-radius: 5px;
+  color: #fffffc;
+  background-color: #1a1a1a;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.btn:active {
+  background-color: rgb(65, 65, 65) !important;
 }
