@@ -1,0 +1,4 @@
+.modal-company-form {
+  display: flex;
+  flex-direction: column;
+}

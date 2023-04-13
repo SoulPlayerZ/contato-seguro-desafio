@@ -14,14 +14,21 @@ td {
   border-top: 2px solid #fcfcfc;
 }
 
-.list-btn {
-  width: 20px;
+
+/* .list-btn {
   padding: 10px;
-  background-color: black;
+  background-color: #1a1a1a;
   color: #fffffc;
-  border-radius: 3px;
-  /* border: 2px solid red; */
-  /* margin: -10px; */
-  margin-right: -30px;
+  border-radius: 5px;
+  font-size: 20px;
+} */
+
+.list-btn {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  color: #fffffc;
+  background-color: #1a1a1a;
+  border-radius: 5px;
   font-size: 20px;
 }
