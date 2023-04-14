@@ -1,16 +1,24 @@
 import logo from "../assets/logo.png";
 import Header from "../components/Header";
 import UserList from "../components/UserList";
+import UserModal from "../components/UserModal";
 import "../css/pages.css";
 
 function UserPage() {
   return (
     <>
       <Header />
+      <UserModal />
       <main>
         <img src={logo} alt="Contato Seguro Logo" className="logo" />
         <section className="form-container">
-          <button className="add">+</button>
+          <button
+            className="add"
+            data-bs-toggle="modal"
+            data-bs-target="#user-modal"
+          >
+            +
+          </button>
           <form>
             <input type="text" placeholder="Buscar..." className="search" />
             <select>
