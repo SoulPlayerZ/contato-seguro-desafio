@@ -1,4 +1,4 @@
-import "../css/companyModal.css";
+import "../css/modal.css";
 
 function CompanyModal() {
   return (
@@ -15,7 +15,7 @@ function CompanyModal() {
             ></button>
           </div>
           <div className="modal-body">
-            <form className="modal-company-form">
+            <form className="modal-form">
               <label>
                 Nome:
                 <input type="text" name="nome" maxLength="30" className="input-text-modal" required />
