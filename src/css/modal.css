@@ -23,7 +23,30 @@ label {
 
 .tel-nasc-container {
   display: flex;
+
+  width: 180%;
 }
+
+.input-tel-modal {
+  width: 100%;
+  margin: 10px auto;
+  height: 35px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.input-date-modal {
+  width: 125%;
+  margin: 10px auto;
+  height: 35px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+} 
+
 
 .btn {
   margin: 5px;
