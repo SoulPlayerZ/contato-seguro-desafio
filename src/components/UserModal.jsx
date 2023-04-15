@@ -41,17 +41,17 @@ function UserModal() {
                     type="text"
                     name="telefone"
                     maxLength="20"
-                    className="input-text-modal"
+                    className="input-tel-modal"
                     required
                   />
                 </label>
-                <label>
+                <label className="label-date-modal">
                   Nascimento:
                   <input
                     type="date"
                     name="nascimento"
                     maxLength="20"
-                    className="input-text-modal"
+                    className="input-date-modal"
                     required
                   />
                 </label>
